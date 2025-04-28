@@ -35,23 +35,7 @@ int main(){
     }else if (Populacao2 > Populacao1){
         printf("Resultado: Populacao1 venceu \n");
     }else{
-        printf("Resultado: Empate!\n");
-    }
-    
-
-    
-
-   
-   
-
-    
-
-
-
-    
-    
-
-
+       printf("Resultado: Empate!\n");
 
 
 }
