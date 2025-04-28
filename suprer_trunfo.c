@@ -31,11 +31,11 @@ int main(){
     //Resultado da comparação
 
     if (Populacao1 > Populacao2){
-        printf("Resultado: Populacao1 e maior que Populacao2 \n");
+        printf("Resultado: Populacao1 venceu \n");
     }else if (Populacao2 > Populacao1){
-        printf("Resultado: Populacao1 e maiou que Populacao2 \n");
+        printf("Resultado: Populacao1 venceu \n");
     }else{
-        printf("Resultado: Venceu!\n");
+        printf("Resultado: Empate!\n");
     }
     
 
