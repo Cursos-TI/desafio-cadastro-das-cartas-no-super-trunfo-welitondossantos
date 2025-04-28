@@ -23,17 +23,22 @@ int main(){
 
     //Comparando População
     
-    printf("Entre com o Populacao1: \n");
+    printf("Entre com a Populacao1: \n");
     scanf("%d", &Populacao1);
-    printf("Entre com o Populacao2: \n");
+    printf("Entre com a Populacao2: \n");
     scanf("%d", &Populacao2);
 
-    if (Populacao1 > PontosTuristicos2){
-        printf("Populacao1 e maior que Populacao2\n");
+    //Resultado da comparação
+
+    if (Populacao1 > Populacao2){
+        printf("Resultado: Populacao1 e maior que Populacao2 \n");
+    }else if (Populacao2 > Populacao1){
+        printf("Resultado: Populacao1 e maiou que Populacao2 \n");
+    }else{
+        printf("Resultado: Venceu!\n");
     }
-    {
-        /* code */
-    }
+    
+
     
 
    
