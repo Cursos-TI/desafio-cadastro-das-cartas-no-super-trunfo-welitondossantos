@@ -6,7 +6,7 @@ int main(){
 
     int NomedaCidade1;
     int Populacao1;
-    char Estado1[4];
+    char Estado1;
     char codigo1[4];
     float Area1;
     float Pib1;
@@ -15,7 +15,7 @@ int main(){
     //Declarando as variavel carta 2
     int NomedaCidada2;
     int Populacao2;
-    char Estado2[4];
+    char Estado2;
     char codigo2[4];
     float Area2;
     float Pib2;
@@ -38,4 +38,5 @@ int main(){
         printf("Resultado: Populacao1 venceu \n");
     }else
     {
-       printf("Resultado: Empate!\n");}
+        printf("Resultado: Empate!\n");
+}
